@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap demo</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"
+    />
+    <script>
+      $(document).ready(function () {
+        $("#tipBottom").tooltip({ placement: "bottom" });
+      });
+    </script>
+  </head>
+
+  <body>
+    <div class="text-center">
+      <img src="media/road1.png" height="1000px" alt="..." />
+    </div>
+    <div class="sign-1">
+      <div class="card" style="width: 150px; height: 190px">
+        <img
+          src="media/stop.jpg"
+          height="200px"
+          width="100px"
+          class="card-img-top"
+          alt="..."
+        />
+        <div class="text-center">
+          <a
+            href="#"
+            data-bs-toggle="tooltip"
+            data-bs-placement="bottom"
+            title="Stop Sign"
+          >
+            <i class="bi bi-info-square-fill"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="alert-1">
+      <div class="alert alert-danger alert-dismissible fade show">
+        Drivers should immediately stop after seeing this.
+        <button
+          type="button"
+          class="btn-close"
+          data-bs-dismiss="alert"
+        ></button>
+      </div>
+    </div>
+
+    <!-- 2 Sign -->
+    <div class="sign-2">
+      <div class="card" style="width: 150px; height: 190px">
+        <img
+          src="media/give-way.jpg"
+          height="200px"
+          width="100px"
+          class="card-img-top"
+          alt="..."
+        />
+        <div class="text-center">
+          <a
+            href="#"
+            data-bs-toggle="tooltip"
+            data-bs-placement="bottom"
+            title="Give Way Sign"
+          >
+            <i class="bi bi-info-square-fill"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="alert-2">
+      <div class="alert alert-danger alert-dismissible fade show">
+        Indicates the traffic to give way to the fellow traffic on the right.
+        <button
+          type="button"
+          class="btn-close"
+          data-bs-dismiss="alert"
+        ></button>
+      </div>
+    </div>
+    <!-- 3 Sign -->
+    <div class="sign-3">
+      <div class="card" style="width: 150px; height: 190px">
+        <img
+          src="media/speed-limit.png"
+          height="200px"
+          width="100px"
+          class="card-img-top"
+          alt="..."
+        />
+        <div class="text-center">
+          <a
+            href="#"
+            data-bs-toggle="tooltip"
+            data-bs-placement="bottom"
+            title="Speed Limit Sign"
+          >
+            <i class="bi bi-info-square-fill"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="alert-3">
+      <div class="alert alert-danger alert-dismissible fade show">
+        Following the mentioned speed limit is mandatory in these designated
+        areas
+        <button
+          type="button"
+          class="btn-close"
+          data-bs-dismiss="alert"
+        ></button>
+      </div>
+    </div>
+
+    <!-- 4 Sign -->
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+      integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

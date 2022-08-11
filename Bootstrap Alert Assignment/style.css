@@ -1,0 +1,49 @@
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.sign-1{
+
+    position: absolute;
+    top: 0px;
+    left: 390px;
+   
+}
+.alert-1{
+    width: 395px;
+    position: absolute;
+    top: 50px;
+    left: -5px; 
+}
+
+.sign-2{
+
+    position: absolute;
+    top: 245px;
+    left: 390px;
+   
+}
+
+.alert-2{
+    width: 395px;
+    position: absolute;
+    top: 300px;
+    left: -5px; 
+}
+
+
+.sign-3{
+
+    position: absolute;
+    top: 479px;
+    left: 390px;
+   
+}
+.alert-3{
+    width: 395px;
+    position: absolute;
+    top: 540px;
+    left: -5px; 
+}
+
