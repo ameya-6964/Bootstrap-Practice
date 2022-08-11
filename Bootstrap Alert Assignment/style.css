@@ -36,7 +36,7 @@ a{
 .sign-3{
 
     position: absolute;
-    top: 479px;
+    top: 477px;
     left: 390px;
    
 }
@@ -46,4 +46,110 @@ a{
     top: 540px;
     left: -5px; 
 }
+
+.sign-4{
+
+    position: absolute;
+    top: 688px;
+    left: 390px;
+   
+}
+.alert-4{
+    width: 395px;
+    position: absolute;
+    top: 740px;
+    left: -5px; 
+}
+
+.sign-5{
+
+    position: absolute;
+    top: 918px;
+    left: 390px;
+   
+}
+.alert-5{
+    width: 395px;
+    position: absolute;
+    top: 960px;
+    left: -5px; 
+}
+
+
+.sign-6{
+
+    position: absolute;
+    top: 0px;
+   right: 390px;
+   
+}
+.alert-6{
+    width: 395px;
+    position: absolute;
+    top: 50px;
+    right: -5px; 
+}
+
+.sign-7{
+
+    position: absolute;
+    top: 245px;
+    right: 390px;
+   
+}
+
+.alert-7{
+    width: 395px;
+    position: absolute;
+    top: 300px;
+    right: -5px; 
+}
+
+
+.sign-8{
+
+    position: absolute;
+    top: 477px;
+    right: 390px;
+   
+}
+.alert-8{
+    width: 395px;
+    position: absolute;
+    top: 540px;
+    right: -5px; 
+}
+
+
+.sign-9{
+
+    position: absolute;
+    top: 688px;
+    right: 390px;
+   
+}
+.alert-9{
+    width: 395px;
+    position: absolute;
+    top: 740px;
+    right: -5px; 
+}
+
+
+.sign-10{
+
+    position: absolute;
+    top: 918px;
+    right: 390px;
+   
+}
+
+
+.alert-10{
+    width: 395px;
+    position: absolute;
+    top: 960px;
+    right: -5px; 
+}
+
 
