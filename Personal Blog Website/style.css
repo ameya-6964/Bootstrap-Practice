@@ -1,0 +1,15 @@
+.heading{
+    color: black ;
+    text-shadow: 5px 4px 15px black;
+}
+.carousel-inner{
+     height: auto;
+     
+}
+.carousel-inner img{
+background-repeat: no-repeat;
+    background-size: cover;
+}
+.header{
+    color: darkred;
+}
