@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Bootstrap demo</title>
+    <title>Personal Blog</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -42,19 +42,19 @@
               <a class="nav-link" aria-current="page" href="#">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#content">About</a>
+              <a class="nav-link" href="#about">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Skills</a>
+              <a class="nav-link" href="#skills">Skills</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link">Education</a>
+              <a class="nav-link" href="#education">Education</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link">Projects</a>
+              <a class="nav-link" href="#projects">Projects</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link">Contact</a>
+              <a class="nav-link" href="#contact">Contact</a>
             </li>
           </ul>
         </div>
@@ -65,52 +65,267 @@
 
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img src="media/banner2.gif" class="d-block w-100" alt="..." />
+        <img src="media/banner.jpg" class="d-block w-100" alt="..." />
       </div>
     </div>
-    <div id="content">
-      <section class="py-5 text-center container">
-        <div class="row py-lg-5">
-          <div class="col-lg-6 col-md-8 mx-auto">
-            <h1 class="fw-light">
-              Hello My Name Is <span class="header"> Ameya Belvalkar </span>
-            </h1>
-
-            <p class="lead text">
-              I am a Mechanical Engineer Who Has Knowledge In
-              <span class="header">Java SQL</span> and Currently I Am Working On
-              <span class="header">Full-Stack Web Development</span> Skills
-            </p>
-            <p>
-              <a
+    <br>
+    <!-- About Section-->
+    <div id="about-para">
+      <h1 style="text-align: center; margin-top: 10px" class="header" id="about">About Me</h1>
+      <div id="my-image">
+        <img src="media/myphoto.jpg">
+    </div>
+      <div id="content">
+        <section class="py-2 text-center container">
+          <div class="row py-lg-3">
+            <div class="col-lg-6 col-md-8 mx-auto">
+              <h1 class="fw-bold">
+                Hello My Name Is <span class="text-highlight"> Ameya Belvalkar </span>
+              </h1>
+              
+              <p class="fw-normal">
+                I am a Mechanical Engineer Who Has Knowledge In
+                <span class="text-highlight">Java SQL</span> and Currently I Am Working On
+                <span class="text-highlight">Full Stack Web Development</span> Skills
+              </p>
+              <p>
+                <a
                 href="https:github.com/ameya-6964"
                 target="_blank"
                 class="btn btn-primary my-2"
-              >
+                >
                 <i class="bi bi-github"></i> GitHub</a
-              >
-              <a
+                >
+                <a
                 href="https://www.linkedin.com/in/ameya-belvalkar-210652136/"
                 target="_blank"
-                class="btn btn-secondary my-2"
+                class="btn btn-secondary my-2 mx-2"
                 ><i class="bi bi-linkedin"></i> Linkedin</a
-              >
-            </p>
+                >
+              </p>
+            </div>
           </div>
         </div>
-      </section>
+        </section>
     </div>
+    <!-- Skills Section-->
+    <section id="skills">
+      <h1 class="section-heading mb75px ">
+          <span class="header" id="skills"> Skills </span>
+      </h1>
 
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
-      crossorigin="anonymous"
-    ></script>
+    <div class="skills-display">
+      <div class="skill-progress">
+        <div class="eighty-percent mb-blue">
+          <div class="skill-name">
+            <span> JAVA </span>
+          </div>
+        </div>
+      </div>
+      <div class="skill-progress">
+        <div class="eighty-five-percent mb-orange">
+          <div class="skill-name">
+            <span> HTML </span>
+          </div>
+        </div>
+      </div>
+      <div class="skill-progress">
+        <div class="fifty-percent mb-light-purple">
+          <div class="skill-name">
+            <span> CSS </span>
+          </div>
+        </div>
+      </div>
+      <div class="skill-progress">
+        <div class="fifty-percent mb-teal">
+          <div class="skill-name">
+            <span> SQL </span>
+          </div>
+        </div>
+      </div>
+      <div class="skill-progress">
+        <div class="eighty-percent mb-blue">
+          <div class="skill-name">
+            <span> Bootstrap </span>
+          </div>
+        </div>
+      </div>
+      <div class="skill-progress">
+        <div class="fifty-percent mb-light-purple">
+          <div class="skill-name">
+            <span> MongoDB </span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <hr>
+    </section>
+  <section id="education">
+    <h1 class="section-heading mb75px">
+        <span>
+            <i class="fas fa-graduation-cap"></i>
+        </span>
+        <span class="header">  Education </span>
+    </h1>
+    <div class="timeline">
 
-    <script
-      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
-      integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+        <div class="timeline-box left ">
+            <div class="timeline-container">
+                <div class="timeline-logo">
+                    <img src="media/agnel.jpg">
+                </div>
+                <h3 class="m 0 m-blue">  Fabrication Enginnering </h3>
+                <h4> MSBTE </h4>
+                <h5 class="m 0"> June 2016 - May 2018 </h5>
+
+                <p class=" text-justify"> This programme is a specialized branch of Mechanical Engineering. The programme deals with the design, fabrication, welding, installation and maintenance of pressure vessels, heat exchanger, boiler, condenser, reaction vessels, agitator, material handling equipments, piping, various structure, etc. The department is having well equipped Welding, Fabrication and Non-destructive testing laboratories. </p>
+            </div>
+        </div>
+        
+        <div class="timeline-box right ">
+            <div class="timeline-container">
+                <div class="timeline-logo">
+                    <img src="media/NHITM.jpg">
+                </div>
+                <h3 class=" m 0 m-blue"> Mechanical Engineering </h3>
+                <h4>  Mumbai University </h4>
+                <h5 class=" m 0"> July 2018 - August 2021 </h5>
+                <p class="text-justify">Mechanical engineers develop, design, build, test, and inspect mechanical devices and systems, such as machines, tools, and engines. Since mechanical engineering is a very broad field, they work in a variety of different industries designing a wide range of products </p>
+            </div>
+        </div>
+
+        <div class="timeline-box left ">
+            <div class="timeline-container">
+                <div class="timeline-logo">
+                    <img src="media/SIT.jpg">
+                </div>
+                <h3 class=" m 0 m-blue"> Piping Engineering </h3>
+                <h4> Private University</h4>
+                <h5 class=" m 0"> November 2021 - April 2022 </h5>
+                <p class="text-justify">Suvidya Institute Of Technology is well known for providing skilled manpower to industries in the Oil and Gas sector so to enhance My mechanical skills to Industry required skills SIT was right Choice to me in span of 4 months My Drafting Presentation and Designing skills have increased to required Industry Standards Their curriculum is best for upcoming enhancement in oil and gas sector </p>
+            </div>
+        </div>
+
+        <div class="timeline-box right ">
+          <div class="timeline-container">
+              <div class="timeline-logo">
+                  <img src="media/qspider.png">
+              </div>
+              <h3 class=" m 0 m-blue"> Qspiders </h3>
+              <h4>  Software Development</h4>
+              <h5 class=" m 0"> April 2022 - July 2022 </h5>
+              <p class="text-justify">As a Mechanical Engineer I had vast experience working with softwares such as AutoCAD, Ansys , PDMS, Caesar II etc.
+                While working on softwares i felt urge to learn programming language and that's when i heard about Qspider who provide excellent knowledge in software development and testing. </p>
+          </div>
+      </div>
+        
+        <div id="timeline-divider">
+            <div class="timeline-traveller">
+                <div>
+                    <i class="fas fa-car-side"></i>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+<h1 style="text-align: center;" class="section-heading mb75px" id="projects"> Projects</h1>
+<div class="container">
+  <div class="row" style="margin-left: 30px ;">
+    <div class="col-md-4 mx-auto">
+      <div class="card" style="width: 18rem;">
+        <img src="media/music.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Music Player Project</h5>
+          <p class="card-text">This Project Includes Advance CSS Concepts as Well as HTML Concepts. It is a Fully Functional Music Player Screen</p>
+        </div>
+        <div class="card-body text-center">
+          <i class="bi bi-github"></i>
+          <a style="text-decoration: none; margin-left: 5px;" href="https://github.com/ameya-6964/Music-Player-Project" target="_blank" class="card-link">Github Link</a>
+          
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4 mx-auto">
+
+      <div class="card" style="width: 18rem;">
+        <img src="media/home1.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Matrimonial Site Project</h5>
+          <p class="card-text">This Project Consist Of Matrimonial Website Made With Help Of Bootstrap Framework. It Consists Of Cards, Alerts and Modals Concept</p>
+        </div>
+        <div class="card-body text-center">
+          <i class="bi bi-github"></i>
+          <a style="text-decoration: none; margin-left: 5px;" href="https://github.com/ameya-6964/Bootstrap-Practice/tree/main/MIni-Project_Matrimonial%20Site" target="_blank" class="card-link">Github Link</a>
+          
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4 mx-auto">
+
+      <div class="card" style="width: 18rem;">
+        <img src="media/1.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Travel Agency Website</h5>
+          <p class="card-text">This Travel Website Is Purely Made With HTML properties Only. It Includes Concepts Such As Basic and Advance HTML Tags</p>
+        </div>
+        <div class="card-body text-center">
+          <i class="bi bi-github"></i>
+          <a style="text-decoration: none; margin-left: 5px;" href="https://github.com/ameya-6964/HTML-Tourism-Website" target="_blank" class="card-link">Github Link</a>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<br>
+
+<section id="contact">
+  <h1 class="section-heading mb50px">
+      <span>
+          <i class="far fa-address-card"></i>
+      </span>
+      <span> Contact </span>
+  </h1>
+  <div id="contact-container">
+
+      <div id="contact-form-container">
+          <form id="contact-form">
+              <input id="input-name" name="name" type="text" placeholder="Your Name">
+              <input id="input-email" name="input-email" type="text" required="" placeholder="Your Email">
+              <textarea id="input-message" name="input-message" rows="2" cols="40" placeholder="Message"></textarea>
+              <button class="sub-btn" type="submit">SEND MESSAGE</button>
+          </form>
+      </div>
+      <div id="my-details-container">
+
+          <h3> Get In touch </h3>
+          <p> Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
+
+          <h3> My Address </h3>
+          <div class="my-details-info-container">
+              <i class="fas fa-map-marker-alt"></i>
+              <span>Delhi, India</span>
+          </div>
+          <div class="my-details-info-container">
+              <i class="fas fa-mobile-alt"></i>
+              <span>7715006964</span>
+          </div>
+          <div class="my-details-info-container">
+              <i class="far fa-envelope"></i>
+              <span>myemail@gmail.com</span>
+          </div>
+      </div>
+  </div>
+
+
+
+
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js" integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK" crossorigin="anonymous"></script>
+</body>
 </html>
