@@ -4,13 +4,18 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Blog Mini Project</title>
+    <script
+    src="https://kit.fontawesome.com/b3348ae33f.js"
+    crossorigin="anonymous"
+    defer
+  ></script>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="CSS/skills.css" />
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"
@@ -45,16 +50,13 @@
               <a class="nav-link" href="home.html">About</a>
             </li>
             <li class="nav-item-active">
-              <a class="nav-link" href="#skills">Skills</a>
+              <a class="nav-link" href="skills.html">Skills</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#education">Education</a>
+              <a class="nav-link" href="education.html">Education</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="projects.html">Certification</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#contact">Contact</a>
+              <a class="nav-link" href="Contact.html">Contact</a>
             </li>
           </ul>
         </div>
@@ -77,6 +79,133 @@
     </div>
     <br />
 
+    <section id="skills">
+      <h1 class="section-heading mb50px">
+          <span>
+              <i class="fas fa-laptop-code"></i>
+          </span>
+          <span> Skills </span>
+      </h1>
+
+    <section id="skills">
+      <div class="skills-display">
+        <div class="skill-progress">
+          <div class="eighty-percent mb-blue">
+            <div class="skill-name">
+              <span> JAVA </span>
+            </div>
+          </div>
+        </div>
+        <div class="skill-progress">
+          <div class="eighty-five-percent mb-orange">
+            <div class="skill-name">
+              <span> HTML </span>
+            </div>
+          </div>
+        </div>
+        <div class="skill-progress">
+          <div class="fifty-percent mb-light-purple">
+            <div class="skill-name">
+              <span> CSS </span>
+            </div>
+          </div>
+        </div>
+        <div class="skill-progress">
+          <div class="fifty-percent mb-teal">
+            <div class="skill-name">
+              <span> SQL </span>
+            </div>
+          </div>
+        </div>
+        <div class="skill-progress">
+          <div class="eighty-percent mb-blue">
+            <div class="skill-name">
+              <span> Bootstrap </span>
+            </div>
+          </div>
+        </div>
+        <div class="skill-progress">
+          <div class="fifty-percent mb-light-purple">
+            <div class="skill-name">
+              <span> MongoDB </span>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+    </section>
+      <div class="accordion" id="accordionExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingOne">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              What Are My Skills 
+            </button>
+          </h2>
+          <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <strong>I Am Learning Full Stack Web Development</strong>  Soon To Be a Full Stack Developer who specializes in JavaScript Technologies across the whole stack (Node.js, React.js, Express, Angular) and building complete web applications with help of backend API Systems.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingTwo">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              Java Skills
+            </button>
+          </h2>
+          <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <strong>Java Developer</strong>  With Knowledge Of Core Java Concepts (OOPS) and Advance Java Concepts (JDBC, JWT, J2EE) With knowledge On Frameworks Of Java (Spring-Boot and Hibernate)
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingThree">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              Database Skills
+            </button>
+          </h2>
+          <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <strong>SQL and NOSQL</strong> Having Knowledge Of Both Databases Which Are SQL(My-SQL) and NO-SQL(MongoDB)
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+      <footer
+      class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top"
+    >
+      <p class="col-md-4 mb-0 text-muted">
+        © Ameya Belvalkar Bootstrap Personal Blog
+      </p>
+
+      <a
+        href="/"
+        class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none"
+      >
+        <svg class="bi me-2" width="40" height="32">
+          <use xlink:href="#bootstrap"></use>
+        </svg>
+      </a>
+
+      <ul class="nav col-md-4 justify-content-end">
+        <li class="nav-item">
+          <a href="#" class="nav-link px-2 text-muted">Home</a>
+        </li>
+        <li class="nav-item">
+          <a href="skills.html" class="nav-link px-2 text-muted">Skills</a>
+        </li>
+        <li class="nav-item">
+          <a href="education.html" class="nav-link px-2 text-muted"
+            >Education</a
+          >
+        </li>
+        <li class="nav-item">
+          <a href="Contact.html" class="nav-link px-2 text-muted">Contact</a>
+        </li>
+      </ul>
+    </footer>
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
       integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"

@@ -1,0 +1,130 @@
+
+/* HOME PAGE CSS */
+
+#my-image {
+    height: 15rem;
+    width: 15rem;
+    margin: auto;
+    margin-top: 20px;
+}
+#my-image img {
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    border: 3px solid white;
+    box-shadow: 1px 1px 10px 2px lightgrey;
+}
+.carousel-inner{
+     height: auto;
+     
+}
+.carousel-inner img{
+background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.section-heading {
+    width: auto;
+    padding: 20px 10px 10px;
+    font-weight: 400;
+}
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+#about-para {
+    padding: 10px;
+    width: 70%;
+    text-align: justify;
+    color: black;
+    line-height: 28px;
+    font-size: 1.1rem;
+    margin: auto;
+    font-size: 22px;
+}
+
+.text-highlight {
+    color: #2857a4;
+    font-weight: 600;
+
+}
+
+/* Common Text Align Classes */
+
+.text-right{
+    text-align: right;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+/* Common Margin Classes */
+
+.m0 {
+    margin: 0;
+}
+
+.mb75px {
+    margin-bottom: 75px;
+}
+
+.mb50px {
+    margin-bottom: 50px;
+}
+
+.header{
+     
+color: black;
+}
+.header span{
+
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+@media only screen and (max-width: 572px) {
+    
+    .bars {
+        display: block;
+    }
+
+    #body-header
+     {
+        width: auto;
+        height: 65vh;
+      }
+     
+}
+
+
+
+@media only screen and (max-width: 768px) {
+
+    #contact-form {
+        margin-left: 0%;
+    }
+
+    #contact-container {
+        flex-wrap: wrap;
+    }
+
+    #my-details-container {
+        width: 80%;
+        margin: 10%;
+    }
+
+    #contact-form-container {
+        width: 80%;
+        margin: 10%;
+    }
+
+}
+
