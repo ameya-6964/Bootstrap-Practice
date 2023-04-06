@@ -20,10 +20,6 @@ function addTodo(e) {
   //Create list
   const newTodo = document.createElement("li");
   newTodo.innerText = todoInput.value;
-  //Save to local - do this last
-  //Save to local
-  saveLocalTodos(todoInput.value);
-  //
   newTodo.classList.add("todo-item");
   todoDiv.appendChild(newTodo);
   todoInput.value = "";
@@ -49,7 +45,6 @@ function deleteTodo(e) {
     const todo = item.parentElement;
     todo.classList.add("fall");
     //at the end
-    removeLocalTodos(todo);
     todo.addEventListener("transitionend", e => {
       todo.remove();
     });
@@ -83,28 +78,6 @@ function filterTodo(e) {
         }
     }
   });
-}
-
-function saveLocalTodos(todo) {
-  let todos;
-  if (localStorage.getItem("todos") === null) {
-    todos = [];
-  } else {
-    todos = JSON.parse(localStorage.getItem("todos"));
-  }
-  todos.push(todo);
-  localStorage.setItem("todos", JSON.stringify(todos));
-}
-function removeLocalTodos(todo) {
-  let todos;
-  if (localStorage.getItem("todos") === null) {
-    todos = [];
-  } else {
-    todos = JSON.parse(localStorage.getItem("todos"));
-  }
-  const todoIndex = todo.children[0].innerText;
-  todos.splice(todos.indexOf(todoIndex), 1);
-  localStorage.setItem("todos", JSON.stringify(todos));
 }
 
 function getTodos() {

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Bootstrap To-Do List</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Page content goes here -->
+    <header class="header">
+      <h1 class="text-center">To-Do List</h1>
+    </header>
+
+    <div class="container">
+      <form class="form">
+        <div class="form-group">
+          <label for="task-name">Task Name</label>
+          <input
+            type="text"
+            class="form-control"
+            id="task-name"
+            placeholder="Enter task name"
+          />
+        </div>
+        <div class="form-group">
+          <label for="due-date">Due Date</label>
+          <input type="date" class="form-control" id="due-date" />
+        </div>
+        <button type="submit" class="btn btn-primary">Add Task</button>
+      </form>
+
+      <ul class="list-group mt-3">
+        <!-- Tasks will be added dynamically using JavaScript -->
+      </ul>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
